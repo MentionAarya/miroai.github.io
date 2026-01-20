@@ -248,30 +248,71 @@ body.no-scroll{
   flex-wrap:wrap;
 }
 
-.testi-card{
-  background:#ffffff;
-  padding:30px;
-  width:280px;
-  border-radius:20px;
-  box-shadow:0 8px 20px rgba(0,0,0,0.08);
-  transition:0.3s;
+.card{
+    background:#00ffea;   /* SAME AS OLD */
+    border-radius:12px;
+    padding:12px;
+    box-shadow:0 0 8px #000;
 }
 
-.testi-card:hover{
-  transform:translateY(-10px);
+.title{
+    text-align:center;
+    font-weight:bold;
+    font-size:24px;
 }
 
-.testi-card img{
-  width:70px;
-  height:70px;
-  border-radius:50%;
-  margin-bottom:10px;
+.profile{
+    display:flex;
+    gap:12px;
+    align-items:center;
 }
 
-.testi-card p{
-  margin-top:15px;
-  color:#555;
+.image{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    border:2px solid #000;
+    overflow:hidden;
+    flex-shrink:0;
+    background:#fff;
 }
+
+.image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.content h3{
+    margin:0;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.verified{
+    color:#1da1f2;
+    font-size:16px;
+}
+
+.designation{
+    margin:2px 0 0;
+    font-size:13px;
+}
+
+.icons{
+    display:flex;
+    gap:10px;
+    margin-top:6px;
+}
+
+.icons a{
+    font-size:22px;
+}
+
+.instagram{color:#e1306c;}
+.youtube{color:#ff0000;}
+.facebook{color:#1877f2;}
+.whatsapp{color:#25d366;}
 
 /* ===== SOCIAL LINKS ===== */
 .social-links a{
